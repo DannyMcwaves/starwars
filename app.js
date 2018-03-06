@@ -7,7 +7,7 @@ let express = require('express'),
     errorhandler = require("errorhandler"),
     session = require("express-session"),
     path = require("path"),
-    routes = require("./routes/index"),
+    routes = require("./routes/home"),
 
     // instantiating the express application.
     app = express();
@@ -51,7 +51,7 @@ app.use("/public", express.static("build"));
 app.use("/service-worker.js", express.static("build/service-worker.js"));
 
 // ROUTE the GETS, POSTS, PUTS, DELETES request that are coming to the server.
-app.get("*", routes.home);
+app.get("*", routes);
 
 // if anything fails, such as 404 or Internal server error, let this error handler take care of it for us.
 app.use(errorhandler());
