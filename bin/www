@@ -6,9 +6,9 @@ let debug = require('debug')('swapi');
 // then you will get the app in the main file and then use it to start the server.
 let app = require('../app');
 
-let HOST = '127.0.0.1';
+//let HOST = '127.0.0.1';
 
-app.set('host', process.env.HOST || HOST);
+//app.set('host', process.env.HOST || HOST);
 
 app.set('port', process.env.PORT || 8000);
 
