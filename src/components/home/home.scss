@@ -1,0 +1,31 @@
+@import "../../fonts/Bungee/Bungee-Regular.css";
+@import "../../fonts/Orbitron/Orbitron-Regular.css";
+@import "../../fonts/Passero_One/PasseroOne-Regular.css";
+@import "compass";
+
+
+#main {
+
+  @include background(linear-gradient(120deg, transparentize(#c0c0c0, 0.2), transparentize(#c0c0c0, 0.1), transparentize(#c0c0c0, 0.2)));
+
+  #content {
+    span, span:hover {
+      font-family: PasseroOne-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+      font-size: 1.5em;
+      color: #000000;
+    }
+    i.far {
+      font-size: 0.5em!important;
+    }
+    a {
+      text-decoration: none!important;
+      color: #000000//#c82333;
+    }
+
+    div.info{
+      font-family: Orbitron-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+    }
+
+  }
+
+}
