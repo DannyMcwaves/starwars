@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "PasseroOne-Regular";
+    src: url("PasseroOne-Regular.eot"); /* IE9 */
+    src: url("PasseroOne-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("PasseroOne-Regular.woff") format("woff"), /* chrome, firefox */
+    url("PasseroOne-Regular.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("PasseroOne-Regular.svg#PasseroOne-Regular") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

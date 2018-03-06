@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Orbitron-Bold";
+    src: url("Orbitron-Bold.eot"); /* IE9 */
+    src: url("Orbitron-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("Orbitron-Bold.woff") format("woff"), /* chrome, firefox */
+    url("Orbitron-Bold.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("Orbitron-Bold.svg#Orbitron-Bold") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
