@@ -1,6 +1,6 @@
 {
-  "name": "ats_frontend",
-  "version": "0.1.0",
+  "name": "swapi",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
