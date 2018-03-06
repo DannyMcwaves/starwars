@@ -1,0 +1,75 @@
+// sass compass preproccesor
+@import "compass";
+
+#data {
+  //background-color: #0b2e13;
+  div.ctrl{
+    background-color: #1d1d1d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    span {
+      padding: 0 4.5px;
+      font-size: 0.8em;
+      font-family: PasseroOne-Regular, Bungee-Regular, AtomicAge-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+      cursor: pointer;
+      color: #000;
+      background-color: #c0c0c0;
+      margin: 0 3px;
+    }
+    span.pl-1{
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      background-color: transparent!important;
+    }
+  }
+
+  table.table{
+    tr{
+      background-color: transparentize(white, 0.45);
+      border-bottom: 2px solid transparentize(#6c757d, 0.2);
+      cursor: pointer;
+    }
+    tr:last-child{
+      border-bottom: 0;
+    }
+    thead tr{
+      border-bottom: 2px solid transparentize(#6c757d, 0.2)!important;
+      cursor: auto;
+    }
+    th{
+      color: #160521;
+      text-transform: uppercase;
+      font-family: Orbitron-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+      border: 0 !important;
+    }
+    td {
+      color: #000;
+      font-family: PasseroOne-Regular, Arial, Helvetica Neue, Helvetica, sans-serif;
+    }
+  }
+
+
+  #details {
+    table.table{
+      tr {
+        cursor: auto;
+        td a{
+          color: #160521;
+          text-decoration: underline;
+        }
+        td a:hover{
+          color: transparentize(#160521, 0.4);
+        }
+        td ul li{
+          margin:0;
+          padding:0;
+        }
+      }
+    }
+  }
+}
