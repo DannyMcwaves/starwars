@@ -1,0 +1,18 @@
+#! /usr/bin/env node
+
+// debug will get the name of the app in the package.json file when you call it.
+let debug = require('debug')('swapi');
+
+// then you will get the app in the main file and then use it to start the server.
+let app = require('../app');
+
+let HOST = '127.0.0.1';
+
+app.set('host', process.env.HOST || HOST);
+
+app.set('port', process.env.PORT || 8000);
+
+app.listen(app.get('port'), function () {
+	debug("the server is running on ", app.get('port'));
+	console.log('node js frontend started', app.get('host'), app.get('port'));
+});
