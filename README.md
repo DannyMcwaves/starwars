@@ -30,4 +30,11 @@ To run the app locally, you need to have a current version of [node.js](https://
 
 *you'd see a green info `swapi app started on localhost:8000`. open your browser and visit `localhost:8000`*
 
+
+### TEST COMPONENT
+To test the component,
+
+run `npm test`
+
+
 :+1::sparkles:
