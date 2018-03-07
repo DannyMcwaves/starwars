@@ -90,7 +90,7 @@ class Film extends Component {
 }
 
 Film.propTypes = {
-  film: PropTypes.object
+  film: PropTypes.array
 };
 
 const mapStateToProps = state => {

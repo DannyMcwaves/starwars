@@ -26,7 +26,7 @@ class Homepage extends Component {
       <WindowRow id='main' className="justify-content-end">
         <Col xs={12} sm={12} md={2} id='content' className='pt-3'>
           <Link to='/'>
-            <div className='text-center text-md-left'><i className='far fa-dot-circle'/><span> STAR WARS API </span></div>
+            <div className='text-center text-md-left'><span> STAR WARS API </span></div>
           </Link>
         </Col>
         <Col xs={12} sm={12} md={10} id='data' className='pt-3'>
